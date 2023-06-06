@@ -34,6 +34,7 @@
 ## notes
 
 * comments w/ `%`
+* `kpsewhich {package name}.sty` - check if package is installed
 
 > packt - latex, p37
 > Change the font shape sensibly.
