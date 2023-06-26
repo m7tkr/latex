@@ -4,37 +4,27 @@
 
 * preabmle vs environment
 * command, macro and declaration
-* font family or typeface
 * switching command vs argument
 * group syntax
 
-## commands
+## syntax
 
 * `\textbackslash` vs `\\ `
-* font shape
-  * `\emph{}` or `\em`
-  * `\textbf` or `\bfseries`
-  * `\textsl` or `\slshape`
-  * `\textit` or `\itshape`
-  * `\textnormal{}` or`\normalfont`
 * `newcommnad{command}[arg][optional]{definition}`
-* `\usepackage{}`
-* `\parbox{width}{text}` vs `\begin{minipage`
-* `\quad` - breaks
-* `\fbox` - frames
-* `\hyphenation` vs `\mbox`
-  * `\usepackage{microtype}` - adjusting hyphenation
-* `~` - line break is not allowed, like in `Dr. ~Watson`
-* justification
-  * `{\raggedright text}`
-* quoting
-  * `\`\` text ''`
-  * `\begin{quote}`
+* `~` - prohibits line, like in `Dr. ~Watson`
 
 ## notes
 
 * comments w/ `%`
 * `kpsewhich {package name}.sty` - check if package is installed
+* amsmath multiline envs:
+  * multline 
+  * gather
+  * align
+  * flalign
+  * alignat
+  * split
+  * aligned, gathered, and alignedat:
 
 > packt - latex, p37
 > Change the font shape sensibly.
