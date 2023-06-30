@@ -9,14 +9,15 @@
 
 ## syntax
 
-* `\textbackslash` vs `\\ `
+* `\textbackslash` vs `\\`
 * `newcommnad{command}[arg][optional]{definition}`
 * `~` - prohibits line, like in `Dr. ~Watson`
+* comments w/ `%`
 
 ## notes
 
-* comments w/ `%`
 * `kpsewhich {package name}.sty` - check if package is installed
+* `tlmgr` - tex package manager
 * amsmath multiline envs:
   * multline 
   * gather
